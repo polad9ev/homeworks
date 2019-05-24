@@ -1,0 +1,84 @@
+body  {
+	background-color: #f6f6f6;
+	
+	position:  relative;
+}
+
+.card {
+	width: 1010px;
+	height: 503px;
+	border: 1px solid #d7d7d7;
+	background-color: #ffffff;
+
+	position: fixed;
+	top: 0;
+ bottom: 0;
+	left: 0;
+ right: 0;
+ margin: auto;
+}
+
+.card_image {
+	padding-top: 64px;
+	max-width: 376px;
+	height: 375px;
+	display: inline-block;
+	margin-left: 48px;
+}
+
+.card_info {
+	margin-left: 99px;
+	display: inline-block;
+	max-width: 393px;
+	vertical-align: top;
+}
+
+.card_name {
+	padding-top: 90px;
+	color: #2f2f2f;
+	font-family: "Arial";
+	font-size: 23px;
+	font-weight: 600;
+	padding-bottom: 26px;
+}
+
+.card_descr{
+	padding-bottom: 50px;
+	color: #2f2f2f;
+	font-family: "Arial";
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.price_name{
+	padding-bottom: 20px;
+	color: #2f2f2f;
+	font-family: "Arial";
+	font-size: 15px;
+	font-weight: 400;
+}
+
+.price_price {
+	color: #2f2f2f;
+	font-family: "Arial";
+	font-size: 30px;
+	font-weight: 400;
+}
+
+.card_btn {
+	width: 252px;
+	height: 50px;
+	background-color: #ec744a;
+	border: none;
+	color: #ffffff;
+	font-family: "Arial";
+	font-size: 19px;
+	font-weight: 400;
+	margin-top: 56px;
+	transition:  0.5s ease ;
+}
+
+.card_btn:hover {
+	background-color: red;
+	cursor: pointer;
+}
