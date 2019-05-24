@@ -1,0 +1,131 @@
+body {
+	font-family:  Tahoma, sans-serif;
+	color: #000;
+	margin: 0;
+	padding: 0;
+}
+
+h1,h2 {
+	margin: 0;
+}
+
+.container {
+	width: 1140px;
+	margin:  0 auto;	
+}
+
+.wrapper {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+/* HEADER */
+
+.header {
+	margin-top: 70px;
+	margin-bottom: 95px;
+}
+
+.header_image {
+	width: 404px;
+	height: 630px;
+}
+
+.book_info {
+	padding-top: 60px;
+	margin-left: 75px;
+	max-width: 530px;
+}
+
+.book_info h1 {
+	margin-bottom: 10px;
+	font-size: 48px;
+	font-weight: 700;
+}
+
+.book_info h2 {
+	margin-bottom: 35px;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+.book_descr {
+	margin-bottom: 40px;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.book_price {
+	font-size: 48px;
+	font-weight: 400;
+	line-height: 27px;
+	margin-bottom: 90px;
+}
+
+.book_btns {
+	font-size: 24px;
+	font-weight: 700;
+	}
+
+.book_btns a {
+	text-decoration: none;
+	font-family: Tahoma,sans-serif;
+}
+
+.btn_buy {
+	border-radius: 5px;
+	background-color: #f05a22;
+
+	color: #fff;
+	border:  1px solid #f05a22;
+	margin-right: 35px;
+	font-weight: 700;
+	line-height: 27px;
+	padding: 20px 45px;
+}
+
+.btn_more-info {
+	border:  2px solid #f05a22;
+	border-radius: 5px;
+	padding: 20px 33px;
+	color: #f05a22;
+}
+
+/* Delivery */
+
+
+.delivery {
+	background-color: #f2f2f2;
+
+}
+
+.add {
+	justify-content: space-around;
+	text-align: center;
+}
+
+.section-title {
+	padding-top: 85px;
+	color: #333333;
+	text-align: center;
+	font-family: Tahoma, sans-serif;
+	font-size: 30px;
+	font-weight: 800;
+	line-height: 27px;
+	margin-bottom: 90px;
+}
+
+.delivery_card {
+	max-width: 240px;
+	margin-bottom: 100px;
+}
+
+.card_descr {
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 22px;
+}
