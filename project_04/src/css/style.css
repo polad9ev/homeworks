@@ -1,0 +1,75 @@
+body {
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.slider {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	display: flex;
+	background: red;
+}
+
+.item {
+	box-shadow: 0px 0px 10px  rgba(0,0,0,0.4);
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-o-display: flex;
+	display: flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	flex-basis:  25%;
+	background-color: lightgrey;
+	/* margin-top: 10vh; */
+	height: 100vh;
+	transition: 0.5s ease
+}
+
+.item:hover{
+	flex-basis: 100%;
+}
+
+span {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	color: #fff;
+	text-shadow: 1px 2px 4px black;
+	position: absolute;
+	margin-left: 38%;	
+	font-size: 33px;
+	padding-top: 25px;
+
+}
+
+.item a {
+	display: block;
+}
+
+.item1 {
+	background: url(../img/vk.jpg) center center no-repeat / cover;
+}
+
+.item2 {
+	background: url(../img/ig.jpg) center center no-repeat / cover;
+}
+
+.item3 {
+	background: url(../img/fb.jpg) center center no-repeat / cover;
+}
+
+.item4 {
+	background: url(../img/yt.png) center center no-repeat / cover;
+}
